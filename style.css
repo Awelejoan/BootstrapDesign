@@ -1,0 +1,103 @@
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+*{margin: 0;
+padding: 0;}
+
+.hero{
+    background: url('./images/pics1.jpg')no-repeat center/cover;
+    height: 400px;
+    background-color: rgb(66, 64, 64);
+    background-blend-mode: soft-light;
+}
+.pic1{
+    background: url('./images/pics1.jpg')no-repeat center/cover;
+    height: 450px;
+}
+
+.card-title{
+    padding: 10px;
+}
+.amt{
+    margin-left: 140px;
+}
+.card-img-top{
+    position:relative
+}
+.fa-heart{
+    padding: 5px;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    right: 0; 
+}
+.top-left{
+    background-color: green;
+    padding: 5px;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+}
+.food-content{
+    color: white;
+    padding: 80px;
+}
+.fa-star{
+    position: absolute;
+    bottom:0;
+    right: 0;
+    background-color: green;
+    padding: 5px;
+    border-radius: 3px;
+}
+input[type=text]{background-color: transparent;}
+.hero-content{
+    padding:150px 50px;
+}
+
+
+
+.pic3{
+    background: url('./images/pics3.jpg')no-repeat center/cover;
+    height: 450px;
+}
+
+.food-content{
+    background-color: red;
+    height: 450px;
+}
+.green{background-color:green ;}
+.pic{
+    background: url('./images/pics3.jpg')no-repeat center/cover;
+    height: 300px;
+}
+
+
+.pic5{
+    background: url('./images/pics5.jpg')no-repeat center/cover;
+}
+#form ::placeholder{color: rgb(192, 189, 189);}
+.form{
+    color: white;
+    padding: 20px ;
+}
+#form input{background-color: transparent;}
+#form textarea{background-color: transparent;}
+.text textarea{height: 200px;}
+.form-control{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 20px;
+}
+nav ul a:hover{
+ background-color: red;
+ color: white;   
+}
+
+
+@media only screen and (max-width:900px) {
+    .hero{display: none;}
+   .pic5{display: none;}
+   #form{width: 100%;}
+   .text-center{font-size: 25px;}
+}
